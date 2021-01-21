@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}/*căn giúp ko bị vỡ hình*/
+body{
+    background-color: antiquewhite;
+}
+#page{
+    background-color: aqua;
+    width: 1000px;
+    margin: auto;
+    border: 3px solid blue;
+    box-shadow: 5px 5px 10px blue;
+}
+header#top-page{
+    height: 100px;
+    background-image: url(nền\ đẹp.png);
+    background-size: 1000px 300px;
+}
+nav#main-nav{
+    height: 30px;
+    background-color: rgb(135, 159, 238);
+    color: aliceblue;
+    text-align: center;
+}
+footer#footer-page{
+    clear: both;
+    background-color: rgb(201, 130, 37);
+    height: 60px;
+}
+article{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 700px;
+    box-sizing: border-box;
+}
+aside{
+    background-color: rgb(233, 236, 137);
+    float: left;
+    width: 294px;
+    height: 700px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px red;
+}
