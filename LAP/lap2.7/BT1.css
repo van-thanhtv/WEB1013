@@ -1,0 +1,31 @@
+.v-menu{
+    padding: 0px;
+    margin: 50px 0px 0px 50px;
+    list-style: none;
+    border-radius: 10px;
+    width: 230px;
+    box-shadow: 0px 0px 10px red;
+}
+.v-menu a{
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 10px;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.v-menu a:hover{
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 10px;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: beige;
+}
+div.nen{
+    width: 400px;
+    background-color: bisque;
+    margin: auto;
+    box-shadow: 0px 0px 10px red;
+    border-radius: 20px;
+    padding: 10px 10px 40px 50px;
+}
+h2{
+    font-variant: small-caps;
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    margin: 5px;
+}
+button{
+    background-color: rgb(226, 204, 7);
+    position: absolute;
+    bottom: 140px;
+    right: 460px;
+}
+textarea{
+    margin-top: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px blue;
+    border-radius: 10px;
+}
+
+.n{
+    display: flex;
+    width: 300px;
+}
+.e{
+    clear: both;
+    display: block;
+}
+#nam{
+    position: relative;
+    top: 5px;
+    width: 70px;
+    height: 24px;
+    box-shadow: 0px 0px 10px blue;
+}
+input[type=date]{
+    background-color: aquamarine;
+    color: red;
+    box-shadow: 0px 0px 10px blue;
+}
+input[type=text]{
+    background-color: rgb(226, 235, 149);
+    color: red;
+    box-shadow: 0 0 10px rgb(226, 69, 200);
+}
+label input[type=checkbox]{
+    box-shadow: 0 0 10px rgb(0, 112, 216);
+}

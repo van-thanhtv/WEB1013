@@ -1,0 +1,23 @@
+#menu{
+    width: 100%;
+    background-color: yellowgreen;
+}
+#menu ul {
+    list-style: none; padding: 0px;
+}
+#menu > ul > li{
+    /*Chỉ xoay ngang các phần tử cấp 1*/
+    display: inline-block;
+}
+#menu > ul > li >a {  text-align: center;}
+#menu ul li {  position: relative; width: 150px; }
+#menu ul li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: yellowgreen;
+}
+#menu ul li ul { position: absolute; display: none;} /*ẩn menu con*/
+#menu ul li:hover > ul { display: block;} /*hiện menu con*/
+#menu ul li a:hover{ color: red; background-color: yellow;}

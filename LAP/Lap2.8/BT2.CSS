@@ -1,0 +1,48 @@
+.Menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.Menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: rgb(250, 250, 250);
+    padding: 0 10px;
+    line-height: 40px;
+}
+.Menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    text-align: center;
+}
+.Menu>ul>li>a:hover{
+    color: rgb(18, 211, 50);
+}
+nav{
+    background-color: orangered;
+}
+.Menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 1px green;
+}
+.Menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.Menu>ul>li:hover>ul{
+    display: block;
+    color: white;
+    background-color: orangered;
+}

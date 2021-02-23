@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+    margin: auto;
+}
+h2{
+    font-size: 40px;
+    color: blue;
+    text-shadow: 0px 0px 10px red;
+    font-variant: small-caps;
+    margin-left: 400px;
+
+}
+form{
+    margin: 0px 0px 0px 400px;
+    color: brown;
+    width: 400px;
+    box-shadow: 0px 0px 5px blue;
+    padding: 30px 0px 30px 40px;
+    border-radius: 30px;
+}
+form input[type=text]{
+    background-color: rgb(86, 241, 241);
+    color: rgb(55, 0, 255);
+}
+form textarea{
+    box-shadow: 0px 0px 10px rgb(226, 11, 11);
+    width: 300px;
+}

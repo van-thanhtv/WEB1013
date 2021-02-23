@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse:collapse ;
+        }
+        table thead tr td{
+            color: rgb(250, 250, 250);
+            background-color: royalblue;
+            text-align: center;
+        }
+        table tr:nth-child(2n+1){
+            background-color: aqua;
+            font-variant: small-caps;
+            color: brown;
+        }
+        table tr:nth-child(2n){
+            background-color: chartreuse;
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <table border="2" cellpadding="10">
+        <thead>
+           <tr>
+            <td rowspan="2">Ngoại tệ</td>
+            <td colspan="2">Tỉ giá mua</td>
+            <td rowspan="2">Tỉ giá bán</td>
+          </tr>  
+        
+         <tr>
+            <td>Tiền mặt</td>
+            <td>Chuyển khoản</td>
+         </tr>   
+        </thead>
+        
+        <tr>
+            <td>USD(USD 50-100)</td>
+            <td>22.250</td>
+            <td>22.260</td>
+            <td>22.345</td>
+        </tr>
+        <tr>
+            <td>USD(USD 5-20)</td>
+            <td>22.240</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>USD(Dưới 5 USD)</td>
+            <td>22.230</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>EUR</td>
+            <td>24.123</td>
+            <td>52.32</td>
+            <td>52.632</td>
+        </tr>
+        <tr>
+            <td>GBP</td>
+            <td>24.123</td>
+            <td>52.32</td>
+            <td>52.632</td>
+        </tr>
+        <tr>
+            <td>JPY</td>
+            <td>24.123</td>
+            <td>52.32</td>
+            <td>52.632</td>
+        </tr>
+        <tr>
+            <td>HKD</td>
+            <td>24.123</td>
+            <td>52.32</td>
+            <td>52.632</td>
+        </tr>
+        <tr>
+            <td>HDI</td>
+            <td>24.123</td>
+            <td>52.32</td>
+            <td>52.632</td>
+        </tr>
+    </table>
+</body>
+</html>

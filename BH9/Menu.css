@@ -1,0 +1,51 @@
+*{box-sizing: border-box;}
+div{
+    width: 1000px;
+    height: 2000px;
+    background-color: beige;
+    position: relative;
+    left: 100px;
+}
+nav{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#v-menu{
+    width: 200px;
+    background-color: antiquewhite;
+}
+#v-menu ul li{
+    position: relative;width: 200px;
+}
+#v-menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+#v-menu>ul>li>ul{
+    position: absolute;
+    display: none;
+    left: 100%;top: 0%;
+}
+#v-menu ul li a{
+    display: block;
+    padding: 5px;
+    border: 1px solid red;
+    text-decoration: none;
+    font-family: arial;
+    background-color: aqua;
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 15px;
+    background-position-y: 6px;
+    background-position-x: 1px;
+}
+#v-menu ul li a:hover{
+    background-color: yellowgreen;
+}
+#v-menu ul li:hover>ul{
+    display: block;
+}
