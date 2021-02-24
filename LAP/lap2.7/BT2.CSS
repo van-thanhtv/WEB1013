@@ -1,40 +1,45 @@
-.col-25{
+.top{
     width: 25%;
     float: left;
+    
 }
-.prod{
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px gray;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-    text-align: center;
+.vmenu{
     position: relative;
+    box-shadow: 0px 0px 5px gray;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
 }
-.prod>.name{
+
+.vmenu >.name{
+    
     font-variant: small-caps;
-    color: orangered;
+    color: red;
 }
-.prod>.image{
+.vmenu >.image{
     max-width: 98%;
     height: 150px;
     margin-bottom: 10px;
 }
-.prod>.price{
+.vmenu >.giá{
     position: absolute;
     left: 5px;
     bottom: 5px;
     font-family: impact;
     font-size: 25px;
     color: orange;
+   
 }
-.prod>.icons{
-    position:absolute;
-    right:5px;
-    bottom:5px;
-    widows: 25px;
+.vmenu >.icons{
+    position: absolute;
+    width: 25px;
+    bottom: 5px;
+    right: 5px;
 }
-.prod>.new-icos{
+.vmenu >.new-icon{
     position: absolute;
     top: 0px;
     right: 0px;
+    
 }

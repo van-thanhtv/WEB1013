@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BT2.CSS">
+</head>
+<body>
+    <div class="form-group">
+        <label for="">Họ Và Tên:</label><br>
+        <input class="form-control" type="text">
+        <fieldset class="form-control" >
+            <legend>Giới Tính</legend>
+            <input type="radio" class="M"><label for="">Nam</label>
+            <input type="radio" class="F"><label for="">Nữ</label>
+        </fieldset>
+        <br><label for="">Ngày Sinh:</label>
+        <br><input class="form-control" type="date">
+        <br><label for="">Điểm</label>
+        <br><input class="form-control" type="number" min="0" max="10" step="0.25">
+        <br><label for="">Nghề Ngiệp</label>
+        <br><input class="form-control" list="browsers">
+        <datalist  class="form-control" id="browsers">
+            <option value="Đầu bếp"></option>
+            <option value="Y tá"></option>
+            <option value="Họa sĩ"></option>
+            <option value="Kĩ Sư"></option>
+            <option value="Giáo Viên"></option>
+            <option value="Học Sinh"></option>
+        </datalist>
+        <fieldset class="form-control">
+            <legend>Sở thích</legend>
+            <label for=""><input type="checkbox">Thể Thao</label>
+            <label for=""><input type="checkbox">Du Lịch</label>
+            <label for=""><input type="checkbox">Âm Nhạc</label>
+            <label for=""><input type="checkbox">Ẩm Thực</label>
+        </fieldset>
+        <br><label for="">Ghi chú:</label>
+        <br><textarea class="form-control" name="" id="" cols="60" rows="5"></textarea>
+        <hr>
+        <div class="form-group">
+            <button type="submit" tabindex="3" class="form-button">Đăng Kí</button>
+            <button type="reset" tabindex="4" class="form-button">Nhập lại</button>
+        </div>
+    </div>
+</body>
+</html>
